@@ -1,0 +1,113 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; 
+}
+
+button.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.login-button:hover {
+  background-color: #0056b3;
+}
+
+button.login-button:active {
+  background-color: #004080;
+}
+
+.user-creation-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.popup-form {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-buttons {
+  margin-top: 10px;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* App.css */
+
+.password-input {
+  position: relative;
+}
+
+.password-field {
+  display: flex;
+}
+
+.password-field input {
+  width: calc(100% - 40px);
+}
+
